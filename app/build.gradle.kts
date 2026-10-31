@@ -10,13 +10,13 @@ plugins {
 }
 
 android {
-    compileSdk = 34
+    compileSdk = 35
     namespace = "com.example.makeitso"
 
     defaultConfig {
         applicationId = "com.example.makeitso"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -48,7 +48,7 @@ android {
         buildConfig = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.0"
+        kotlinCompilerExtensionVersion = "1.5.15"
     }
     packaging {
         resources.excludes.add("/META-INF/{AL2.0,LGPL2.1}")
@@ -76,9 +76,9 @@ dependencies {
     implementation("androidx.preference:preference-ktx:1.2.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4")
     implementation("com.google.accompanist:accompanist-permissions:0.30.1")
-    implementation("com.google.dagger:hilt-android:2.47")
+    implementation("com.google.dagger:hilt-android:2.51.1")
     implementation("androidx.test:runner:1.6.2")
-    ksp("com.google.dagger:hilt-compiler:2.47")
+    ksp("com.google.dagger:hilt-compiler:2.51.1")
 
     //Firebase
     implementation(platform("com.google.firebase:firebase-bom:32.5.0"))
@@ -96,6 +96,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     androidTestImplementation("com.google.dagger:hilt-android-testing:2.43.2")
     androidTestImplementation("com.google.truth:truth:1.1.3")
-    kspAndroidTest("com.google.dagger:hilt-compiler:2.47")
+    kspAndroidTest("com.google.dagger:hilt-compiler:2.51.1")
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
