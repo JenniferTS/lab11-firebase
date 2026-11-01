@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MakeItSo"
 include(":app")
+include(":gowayki")
