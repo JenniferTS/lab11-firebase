@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "123456789012",
-    "project_id": "demo-gowayki",
-    "storage_bucket": "demo-gowayki.appspot.com"
+    "project_number": "1015577785113",
+    "project_id": "gowayki-lab11",
+    "storage_bucket": "gowayki-lab11.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:aaaaaaaaaaaaaaaa",
+        "mobilesdk_app_id": "1:1015577785113:android:e9ee86212dff3444170b88",
         "android_client_info": {
           "package_name": "com.example.makeitso"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaDemoGoWaykiEmulatorOnlyKey000000000"
+          "current_key": "AIzaSyCqvvb_H2Zac94lSRWoGv_QabShpBGv3Y0"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:bbbbbbbbbbbbbbbb",
+        "mobilesdk_app_id": "1:1015577785113:android:9ce730bd2ed47fcf170b88",
         "android_client_info": {
           "package_name": "com.gowayki.app"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaDemoGoWaykiEmulatorOnlyKey000000000"
+          "current_key": "AIzaSyCqvvb_H2Zac94lSRWoGv_QabShpBGv3Y0"
         }
       ],
       "services": {

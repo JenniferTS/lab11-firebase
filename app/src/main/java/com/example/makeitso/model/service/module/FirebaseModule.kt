@@ -30,11 +30,8 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object FirebaseModule {
-  // Firebase Emulator Suite corriendo en mi PC (10.0.2.2 es la PC vista desde el emulador de Android).
-  // Si se usa el proyecto real de la consola de Firebase, basta con quitar las llamadas a useEmulator.
-  private const val HOST = "10.0.2.2"
+  // Proyecto real de Firebase: gowayki-lab11 (google-services.json)
+  @Provides @Singleton fun auth(): FirebaseAuth = Firebase.auth
 
-  @Provides @Singleton fun auth(): FirebaseAuth = Firebase.auth.also { it.useEmulator(HOST, 9099) }
-
-  @Provides @Singleton fun firestore(): FirebaseFirestore = Firebase.firestore.also { it.useEmulator(HOST, 8085) }
+  @Provides @Singleton fun firestore(): FirebaseFirestore = Firebase.firestore
 }
